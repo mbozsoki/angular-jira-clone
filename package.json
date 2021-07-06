@@ -25,7 +25,8 @@
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "storybook:ui": "nx run ui:storybook"
   },
   "private": true,
   "dependencies": {
@@ -55,8 +56,13 @@
     "@nrwl/eslint-plugin-nx": "12.5.4",
     "@nrwl/jest": "12.5.4",
     "@nrwl/linter": "12.5.4",
+    "@nrwl/storybook": "^12.5.6",
     "@nrwl/tao": "12.5.4",
     "@nrwl/workspace": "12.5.4",
+    "@storybook/addon-essentials": "~6.3.0",
+    "@storybook/angular": "~6.3.0",
+    "@storybook/builder-webpack5": "~6.3.0",
+    "@storybook/manager-webpack5": "~6.3.0",
     "@types/jest": "26.0.8",
     "@types/node": "14.14.33",
     "@typescript-eslint/eslint-plugin": "4.19.0",
